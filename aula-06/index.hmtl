@@ -1,0 +1,23 @@
+Algoritmo encontraCarta
+
+Pegar uma carta no monte de cartas
+   ENQUANTO tiver cartas no monte REPITA
+     Se é a carta a ser encontrada 
+        grite "EU SOU O MAIORAL"
+     SENÃO
+        jogar a carta na parede
+        pegar a próxima carta do monte
+     Fim ENQUANTO
+  gritar NÃO TEM A CARTA AAAAA
+fim Algoritmo encontraCarta
+
+
+Jogo da advinhação
+
+Algoritmo adivinheNumero
+
+ENQUANTO o numero pensado for diferente do palpite
+    SE o numero pensado é MAIOR que o palpite  
+        Inicio = palpite + 1
+    SENÃO 
+fim do palpite
