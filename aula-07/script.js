@@ -12,11 +12,6 @@ else{
     alert("INVALIDO")
 }
 
-while(const switch (key) {
-    case value:
-        
-        break;
+while(nome == login && s == senha <=3){
 
-    default:
-        break;
-})
+}
