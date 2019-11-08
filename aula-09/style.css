@@ -1,0 +1,7 @@
+let btn = document.querySelector('button');
+
+function tirarClass(){
+    botao.classList.toggle('humilde')
+}
+
+botao.onclock = tirarClass;
