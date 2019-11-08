@@ -1,0 +1,12 @@
+div {
+    width:30px;
+    height:30px;
+    border: 25px solid; 
+    border-color: #f00 #f00 #f00 #f00; 
+    margin: 10px
+    }
+
+body {
+    display: flex
+
+}
