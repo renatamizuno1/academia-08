@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'estilo.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <marquee>Brechoo</marquee>
+    <h1>Bem Vindo</h1>
+    <h2>Ola {{nome}}</h2>
+    <h3>Idade: {{idade}}</h3>
+    {% if idade >= 18 %}
+    <p>adulto</p>
+    {% else %}
+    <p>adolescente</p>
+    {% endif %}
+
+    <ul>
+        {% for roupa in roupas %}
+        <li>{{roupa}}</li>
+        {% endfor %}
+    </ul>
+    <img src="{% static 'imagens/foto.jpg' %}" alt="roupas">
+</body>
+</html
